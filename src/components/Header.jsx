@@ -4,8 +4,6 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const state = useSelector((store) => store.flightSlice);
 
-  console.log(state);
-
   return (
     <header>
       <div>
